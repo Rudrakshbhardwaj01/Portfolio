@@ -24,27 +24,27 @@ export const DATA = {
     "https://tse1.mm.bing.net/th/id/OIP.R5SUytMxlMUTABo-7wxgiQHaG_?rs=1&pid=ImgDetMain&o=7&rm=3",
 
   skills: [
-    { name: "C++" },
-    { name: "C" },
+    { name: "C++", icon: null },
+    { name: "C", icon: null },
     { name: "Python", icon: Python },
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
     { name: "TypeScript", icon: Typescript },
     { name: "Node.js", icon: Nodejs },
-    { name: "Express.js" },
-    { name: "MySQL" },
+    { name: "Express.js", icon: null },
+    { name: "MySQL", icon: null },
     { name: "PostgreSQL", icon: Postgresql },
-    { name: "MongoDB" },
-    { name: "scikit-learn" },
-    { name: "TensorFlow" },
-    { name: "Keras" },
-    { name: "OpenCV" },
-    { name: "YOLO" },
-    { name: "LangChain" },
-    { name: "LangGraph" },
-    { name: "Hugging Face" },
-    { name: "Git" },
-    { name: "Streamlit" },
+    { name: "MongoDB", icon: null },
+    { name: "scikit-learn", icon: null },
+    { name: "TensorFlow", icon: null },
+    { name: "Keras", icon: null },
+    { name: "OpenCV", icon: null },
+    { name: "YOLO", icon: null },
+    { name: "LangChain", icon: null },
+    { name: "LangGraph", icon: null },
+    { name: "Hugging Face", icon: null },
+    { name: "Git", icon: null },
+    { name: "Streamlit", icon: null },
   ],
 
   navbar: [
@@ -98,7 +98,7 @@ export const DATA = {
       start: "Jan 2026",
       end: "Present",
       description:
-        "Training YOLO-based fire detection models using advanced computer vision pipelines. Improved detection reliability by 18% through optimized preprocessing and augmentation. Reduced false positives by 15% via model evaluation and inference tuning.",
+        "Training YOLO-based fire detection models using advanced computer vision pipelines. Improved detection reliability by 18% and reduced false positives by 15% through model tuning.",
     },
     {
       company: "Dotsquares",
@@ -111,7 +111,7 @@ export const DATA = {
       start: "Dec 2025",
       end: "Jan 2026",
       description:
-        "Built production-ready LLM chatbots with multi-turn conversational memory, improving response consistency by 25%. Designed LangGraph agentic workflows and developed LangChain RAG pipelines for contextual retrieval.",
+        "Built production-ready LLM chatbots with multi-turn memory. Designed LangGraph agent workflows and developed LangChain RAG pipelines for contextual retrieval.",
     },
   ],
 
@@ -134,7 +134,7 @@ export const DATA = {
       dates: "2025",
       active: true,
       description:
-        "Full-stack GenAI RAG system that ingests YouTube transcripts and enables video-grounded Q&A. Improved semantic retrieval relevance by 30%.",
+        "Full-stack GenAI RAG system enabling video-grounded Q&A with improved semantic retrieval.",
       technologies: ["React", "Node.js", "LangChain", "RAG"],
       links: [
         {
@@ -152,7 +152,7 @@ export const DATA = {
       dates: "2025",
       active: true,
       description:
-        "Secure full-stack voting system with REST APIs, backend validation, and optimized frontend performance.",
+        "Secure full-stack voting system with REST APIs and optimized frontend performance.",
       technologies: ["Node.js", "Express", "MongoDB", "TailwindCSS"],
       links: [
         {
@@ -182,15 +182,14 @@ export const DATA = {
       image:
         "https://tse1.mm.bing.net/th/id/OIP.5IQ1KebqVXvdJi75TTCwMAHaHa?w=600&h=600&rs=1&pid=ImgDetMain&o=7&rm=3",
     },
-
     {
       title: "PyxelForge — AI Image to ASCII Engine",
       href: "https://github.com/Rudrakshbhardwaj01/PyxelForge",
       dates: "2025",
       active: true,
       description:
-        "End-to-end AI pipeline that generates images from text prompts using the Mistral API and converts them into terminal-optimized ASCII art through structured image processing.",
-      technologies: ["Python", "Mistral API", "Pillow", "Image Processing"],
+        "AI pipeline generating images from text prompts and converting them into terminal-optimized ASCII art.",
+      technologies: ["Python", "Mistral API", "Pillow"],
       links: [
         {
           type: "Source",
@@ -198,7 +197,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://i.etsystatic.com/31698537/r/il/dafc70/3719881989/il_794xN.3719881989_7eg4.jpg",
+      image:
+        "https://i.etsystatic.com/31698537/r/il/dafc70/3719881989/il_794xN.3719881989_7eg4.jpg",
     },
   ],
 
